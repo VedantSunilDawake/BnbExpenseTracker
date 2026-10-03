@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Amber Nest · Tracker</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%2780%27 font-size=%2780%27>🏡</text></svg>">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head>
+<body><div class="w"><header><h1>🏡 Amber <span>Nest</span></h1><div class="f"><button class="b" onclick="exportJ()">⬇ Backup</button><button class="b" onclick="$('imp').click()">⬆ Restore</button><button class="b" onclick="exportC()">CSV</button><input id="imp" type="file" accept=".json" hidden onchange="importJ(this)"></div></header>
+<nav id="nav"></nav><div id="app"></div>
+<p style="color:var(--mut);font-size:12px;margin-top:30px">Revenue is counted in the month of guest <b>check-out</b>. Data is saved in this browser — use <b>Backup</b> regularly.</p></div>
+<div id="t"></div>
+<script src="data.js"></script><script src="app.js"></script></body></html>
